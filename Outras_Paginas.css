@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'constantia';
+  src: url('constantia/constan.ttf') format('ttf'),
+       url('constantia/constan.ttf') format('ttf');
+  /* Adicione outros formatos, se disponíveis */
+}
 *{
     text-align: center;
     color: aliceblue;
