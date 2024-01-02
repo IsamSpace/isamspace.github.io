@@ -1,13 +1,12 @@
 @font-face {
-  font-family: 'constantia';
-  src: url('constantia/constan.ttf') format('ttf'),
-       url('constantia/constan.ttf') format('ttf');
+  font-family: 'Constantia';
+  src: url('constantia/constan.ttf')  format('truetype');
   /* Adicione outros formatos, se disponíveis */
 }
 *{
     text-align: center;
     color: aliceblue;
-    font-family: 'constantia', sans-serif;
+    font-family: 'Constantia', sans-serif;
 }
 body {
     margin: 0;
