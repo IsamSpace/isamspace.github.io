@@ -33,6 +33,7 @@ header{
     margin-bottom: 5em;
     background-color: #ffffff93;
     display: flex;
+    flex-direction: column;
 }
 p{
     text-align: left;
