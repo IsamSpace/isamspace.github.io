@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url('imgs/Captura de tela (2).png');
+    background-image: url('imgs/logotipo.png');
     background-size: 40%; /* Pode ajustar esse valor conforme necessário */
     background-position: center; /* Centraliza a imagem no corpo */
     background-attachment: fixed; /* Fixa a imagem no plano de fundo para que não role com a página */
