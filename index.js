@@ -95,4 +95,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Chamar a função inicialmente para destacar a div no centro
   highlightCenterDiv();
-});
+});function toggleMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = (menu.style.display === "block") ? "none" : "block";
+}
+
+function fecharMenu() {
+    var menu = document.getElementById("menu");
+    menu.style.display = "none";
+}
