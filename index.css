@@ -382,7 +382,7 @@ a:hover{
     background-color: #580f6c;
     padding-top: 60px;
     color: #fff;
-    border: 1px solid #c88cffc9;
+    border: 0.5px solid #c88cffc9;
 }
 
 #fechar-menu {
