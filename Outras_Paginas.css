@@ -1,125 +1,106 @@
 @font-face {
-  font-family: 'Constantia';
-  src: url('constantia/constan.ttf') format('truetype');
-  /* Add other formats if available, for wider browser compatibility */
+ font-family: 'Constantia';
+ src: url('constantia/constan.ttf') format('truetype');
+ /* Adicione outros formatos, se disponíveis */
 }
-
-* {
+*{
   text-align: center;
   color: aliceblue;
   font-family: 'Constantia', sans-serif;
 }
-
 body {
   margin: 0;
   padding: 0;
   background-image: url('imgs/logotipo.png');
-  background-size: 40%; /* Adjust as needed */
-  background-position: center; /* Center the image */
-  background-attachment: fixed; /* Fix the image so it doesn't scroll */
-  background-repeat: no-repeat; /* Prevent image repetition */
-  opacity: 0.97; /* Add opacity to the image */
+  background-size: 40%; /* Pode ajustar esse valor conforme necessário */
+  background-position: center; /* Centraliza a imagem no corpo */
+  background-attachment: fixed; /* Fixa a imagem no plano de fundo para que não role com a página */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  opacity: 0.97; /* Adiciona opacidade à própria imagem */
   background-color: rgb(58, 7, 105);
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden; /* Para ocultar a rolagem horizontal se necessário */
 }
-
-header {
+header{
   background-color: #b33ef7bd;
   padding-bottom: 0.5em;
 }
-
-#home {
+#home{
   height: 40px;
   width: 40px;
 }
-
-#conteudo {
-  z-index: 1; /* Lowered for better layering */
-  margin-top: 5em;
-  margin-bottom: 5em;
-  display: flex;
-  flex-direction: column;
-  backdrop-filter: blur(15px); /* Corrected case */
-  background: rgba(255, 255, 255, 0.2); /* Corrected opacity format */
+#conteudo{
+ z-index: 10000000000;
+ margin-top: 5em;
+ margin-bottom: 5em;
+ display: flex;
+ flex-direction: column;
+ Backdrop-filter: blur(15px);
+ background: #ffffff33;
 }
-
-p {
+p{
   text-align: left;
   color: black;
   min-width: 50%;
 }
-
-h1 {
+h1{
   margin-top: 2em;
 }
-
-.img_lateral {
+.img_lateral{
   max-width: 20em;
   max-height: 13.33em;
   margin-left: auto;
   margin-right: auto;
 }
-
-h2 {
+h2{
   color: #302c30;
   margin-left: 40px;
   display: flex;
 }
-
 @media only screen and (max-width: 767px) {
-  p {
+  p{
     color: black;
   }
-
-  .img_lateral {
+  .img_lateral{
     margin-right: auto;
     margin-left: auto;
     padding-bottom: 1em;
   }
 }
-
-#contato-final {
+#contato-final{
   text-align: left;
   margin-left: 0;
   padding-left: 0;
 }
-
-.felx { /* Corrected typo */
+.felx{
   display: flex;
   flex-direction: row;
 }
-
-.left {
+.left{
   text-align: left;
 }
-
-.ne {
+.ne{
   font-size: 15pt;
-  margin: auto; /* Shorthand for top and bottom margins */
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: lighter;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family:'Times New Roman', Times, serif;
+  font-weight:lighter;
 }
-
-.img-cont {
+.img-cont{
   width: 2.5em;
   margin-right: 6px;
   margin-bottom: 4px;
 }
-
-.informacoes_texto {
+.informacoes_texto{
   display: flex;
   flex-direction: column;
 }
-
-p {
-  display: flex;
-  margin-left: 10px;
+p{
+ display: flex;
+ margin-left: 10px;
 }
-
-.sub_titulo {
-  filter: drop-shadow(-5px 2px 1px #664f68);
+.sub_titulo{
+ filter: drop-shadow(-5px 2px 1px #664f68);
 }
-
 #menu-toggle {
   position: absolute;
   top: 10px;
@@ -128,7 +109,7 @@ p {
 }
 
 #menu-toggle img {
-  width: 30px; /* Adjust as needed */
+  width: 30px; /* Ajuste conforme necessário */
 }
 
 #menu {
@@ -140,3 +121,24 @@ p {
   height: 100%;
   background-color: #580f6c;
   padding-top: 60px;
+  color: #fff;
+  border: 0.5px solid #c88cffc9;
+}
+
+#fechar-menu {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+#fechar-menu img {
+  width: 20px; /* Ajuste conforme necessário */
+}
+
+#menu a {
+  padding: 15px;
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
