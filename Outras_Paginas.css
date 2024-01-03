@@ -51,6 +51,8 @@ h1{
 }
 h2{
     color: #302c30;
+    margin-left: 40px;
+    display: flex;
 }
 @media only screen and (max-width: 767px) {
     p{
@@ -90,7 +92,7 @@ h2{
     display: flex;
     flex-direction: column;
 }
-p, h2{
+p{
   display: flex;
   margin-left: 10px;
 }
