@@ -89,7 +89,5 @@ h2{
 .informacoes_text{
     display: flex;
     flex-direction: column;
-}
-p{
-  text-align-last: right 30px;
+    text-align: right 30px;
 }
