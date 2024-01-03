@@ -406,3 +406,7 @@ a:hover{
     color: #fff;
     display: block;
 }
+
+#menu a:hover {
+    background-color: #9900be80;
+}
