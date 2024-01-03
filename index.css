@@ -145,7 +145,7 @@ body{
 #scroll-container{
     min-height: 33em;
 }
-div#descricao p{
+div#descricao, p{
     background-color: #500b7e7c;
     padding: 3px;
     padding-top: 5em;
