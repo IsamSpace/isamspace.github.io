@@ -135,7 +135,7 @@ body{
     min-width: 30%; /* Ajuste conforme necessário */
     min-height: 25em; /* Ajuste a altura conforme necessário */
     margin: 3px; /* Ajuste as margens conforme necessário */
-    border: 0px solid #ccc; /* Adicione uma borda para visualização */
+    border: 0px solid #cccccc; /* Adicione uma borda para visualização */
     background-color: #4d3785;
     transition: width 0.3s, height 0,3s; /* Adicionar uma transição para suavizar a mudança de tamanho */
     border-radius: 1em;
