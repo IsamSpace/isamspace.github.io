@@ -1,3 +1,6 @@
+*{
+  background: transparent;
+}
 @font-face {
  font-family: 'Constantia';
  src: url('constantia/constan.ttf') format('truetype');
