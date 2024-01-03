@@ -58,10 +58,10 @@
   box-shadow:0 3px 4px rgba(0,0,0,0.15);
   transition:0.5s;
 }
+
 .menu li:hover a{
   font-size:2.5rem;
-  box-shadow:0 0 0 2px var(--clr), 0 0 0 6px #ffffff;
-  
+  box-shadow:0 0 0 2px var(--clr), 0 0 0 6px #ffffff;  
 }
 
 .menu {
@@ -71,10 +71,22 @@
   border-radius: 50%;
   animation: pulse 2s infinite;
 }
+
 .menu:hover{
   font-size:2.5rem;
   box-shadow:0 0 0 2px var(--clr), 0 0 0 6px #ffffff;
 }
+
+a{
+  color: #ff0000;
+  font-size: 15pt;
+}
+
+a:hover{
+  color:aliceblue;
+  font-size: 13pt;
+}
+
 @keyframes pulse {
   0% {  
     transform: scale(1.1);
@@ -131,6 +143,7 @@ body{
     overflow-x: hidden; /* Adiciona uma barra de rolagem horizontal se o conteúdo ultrapassar a largura do contêiner */
     align-items: center; /* Adiciona centralização vertical */
 }
+
 .trabalhos{
     min-width: 30%; /* Ajuste conforme necessário */
     min-height: 25em; /* Ajuste a altura conforme necessário */
@@ -143,9 +156,15 @@ body{
     font-weight: 800;
     color: transparent;
 }
+
 .trabalhos a{
     color: transparent;
 }
+
+.trabalhos a:hover{
+    color: transparent;
+}
+
 #scroll-container{
     min-height: 33em;
 }
@@ -184,15 +203,24 @@ iframe{
     filter: none;
     color: #8f8f8f;
 }
+
 .trabalhos.destacada a{
     color: #ff0000;
 }
+
+.trabalhos.destacada a:hover{
+    color:aliceblue;
+    font-size: 13pt;
+}
+
 .existe-1{
     margin-left: 30%;
 }
+
 .existe-2{
     margin-right:30%;
 }
+
 .scroll-arrow {
     z-index: 1000;
     top: 50%;
@@ -265,14 +293,6 @@ iframe{
     height: 40%;
     animation: pulsar 4s infinite;
     filter: drop-shadow(-8px 2px 7px #942dbd);
-}
-a{
-  color: #ff0000;
-  font-size: 15pt;
-}
-a:hover{
-  color:aliceblue;
-  font-size: 13pt;
 }
 @keyframes pulsar {
     0% {  
