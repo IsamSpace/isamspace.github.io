@@ -50,7 +50,7 @@ h1{
     margin-right: auto;
 }
 h2{
-    color: #757676db;
+    color: rgba(89, 79, 89, 0.95);
 }
 @media only screen and (max-width: 767px) {
     p{
