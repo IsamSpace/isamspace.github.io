@@ -17,7 +17,7 @@ body {
   background-attachment: fixed; /* Fixa a imagem no plano de fundo para que não role com a página */
   background-repeat: no-repeat; /* Evita a repetição da imagem */
   opacity: 0.97; /* Adiciona opacidade à própria imagem */
-  background-color: transparent;
+  background-color: rgb(0, 0, 0);
   overflow-x: hidden; /* Para ocultar a rolagem horizontal se necessário */
 }
 header{
