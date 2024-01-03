@@ -33,7 +33,7 @@ header{
  margin-bottom: 5em;
  display: flex;
  flex-direction: column;
- background: transparene;
+ background: #4a344df2;
 }
 p{
   text-align: left;
