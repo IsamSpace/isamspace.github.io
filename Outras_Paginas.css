@@ -91,7 +91,6 @@ h2{
     flex-direction: column;
 }
 p, h2{
-  color: pink;
   display: flex;
   margin-left: 10px;
 }
