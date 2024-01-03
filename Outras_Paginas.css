@@ -30,12 +30,12 @@ header{
 }
 #conteudo{
   z-index: 10000000000;
-    margin-top: 5em;
-    margin-bottom: 5em;
-    display: flex;
-    flex-direction: column;
-    Backdrop-filter: blur(15px);
-    background: #ffffff33;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  display: flex;
+  flex-direction: column;
+  Backdrop-filter: blur(15px);
+  background: #ffffff33;
 }
 p{
     text-align: left;
