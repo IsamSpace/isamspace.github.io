@@ -86,9 +86,12 @@ h2{
     margin-right: 6px;
     margin-bottom: 4px;
 }
-.informacoes_text{
+.informacoes_texto{
     display: flex;
     flex-direction: column;
     margin-right: 30px;
     color: pink;
+}
+p{
+  color: pink;
 }
