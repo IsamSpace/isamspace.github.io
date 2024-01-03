@@ -96,6 +96,6 @@ p{
   display: flex;
   margin-left: 10px;
 }
-title{
-  filter: drop-shadow(20px 20px 5px #696069e6);
+.sub_titulo{
+  filter: drop-shadow(-8px 2px 7px #000000);
 }
