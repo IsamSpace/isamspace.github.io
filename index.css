@@ -141,6 +141,7 @@ body{
     border-radius: 1em;
     filter:blur(10px);
     font-weight: 800;
+    color: transparent;
 }
 #scroll-container{
     min-height: 33em;
@@ -178,6 +179,7 @@ iframe{
     min-height: 30em;
     background-color: aliceblue;
     filter: none;
+    color: #8f8f8f;
 }
 .existe-1{
     margin-left: 30%;
