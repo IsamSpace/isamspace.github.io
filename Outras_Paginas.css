@@ -89,9 +89,9 @@ h2{
 .informacoes_texto{
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
-    color: pink;
 }
-p{
+p, h2{
   color: pink;
+  display: flex;
+  margin-left: 10px;
 }
