@@ -354,6 +354,10 @@ a:hover{
     #slogam{
       text-transform:none;
     }
+    .menu li a img{
+      width: 17px;
+      height: 17px;
+    }
     #width{
       width: 80%;
       height: 80%;
