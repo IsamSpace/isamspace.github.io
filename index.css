@@ -410,7 +410,7 @@ a:hover{
 #menu a:hover {
     background-color: #9900be80;
 }
-@keyframes #texto_ {
+@keyframes #texto_vide {
 
 0%{transform: scale(0.5);}
 
