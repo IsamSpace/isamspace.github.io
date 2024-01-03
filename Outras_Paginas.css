@@ -97,5 +97,5 @@ p{
   margin-left: 10px;
 }
 .sub_titulo{
-  filter: drop-shadow(5px 2px 7px #664f68);
+  filter: drop-shadow(-5px 2px 0px #664f68);
 }
