@@ -142,4 +142,6 @@ p{
 }
 #menu a:hover{
   background-color: #9900be80;
+  color: aliceblue;
+  font-size: 13pt;
 }
