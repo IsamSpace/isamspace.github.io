@@ -336,7 +336,7 @@ a:hover{
     .trabalhos{
       min-width: 30%; /* Ajuste conforme necessário */
       min-height: 30em; /* Ajuste a altura conforme necessário */
-      border: 0px solid #ccc; /* Adicione uma borda para visualização */
+      border: 0px solid #cccccc; /* Adicione uma borda para visualização */
       background-color: #982ebfde;
       transition: width 0.3s, height 0,3s; /* Adicionar uma transição para suavizar a mudança de tamanho */
       border-radius: 1em;
@@ -348,7 +348,7 @@ a:hover{
       border: 1.9px solid rgb(110, 25, 221);
       min-width: 40%;
       min-height: 35em;
-      background-color: aliceblue;
+      background-color: #f0f8ff;
       filter: none;
     }
     #slogam{
