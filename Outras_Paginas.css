@@ -96,6 +96,7 @@ h1{
   flex-direction: column;
 }
 .sub_titulo{
+  color: #caa8f5;
  filter: drop-shadow(-5px 2px 1px #09120b);
 }
 #menu-toggle {
