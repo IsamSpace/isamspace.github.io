@@ -12,9 +12,9 @@
   position:relative;
   height:60px;
   width:60px;
-  background:rgba(238, 211, 237, 0.705);
+  background: #caa8f5;
   border-radius:50%;
-  box-shadow:0 3px 4px rgba(0,0,0,0.15);
+  box-shadow:0 3px 4px #000;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -22,13 +22,13 @@
   cursor:pointer;
   transition:1.25s;
   z-index:5;
-  color: #000000;
+  color: #09120b;
 }
 .menu.active .toggle{
   transform:rotate(360deg);
   box-shadow: 0 6px 8px rgba(0,0,0,0.15),
-    0 0 0 2px rgba(183, 79, 253, 0.767),
-    0 0 0 8px #7d51ce88;
+    0 0 0 2px #643a71,
+    0 0 0 8px #69ddff;
 }
 .menu li{
   position:absolute;
@@ -78,7 +78,7 @@
 }
 
 a{
-  color: #ff0000;
+  color: #69ddff;
   font-size: 15pt;
 }
 
@@ -120,7 +120,7 @@ a:hover{
     text-align: center;
 }
 body{
-    background-color: #643a71;
+    background-color: #892cb7;
     color: #09120b;
 }
 .img-centered {
@@ -148,8 +148,8 @@ body{
     min-width: 30%; /* Ajuste conforme necessário */
     min-height: 25em; /* Ajuste a altura conforme necessário */
     margin: 3px; /* Ajuste as margens conforme necessário */
-    border: 0px solid #cccccc; /* Adicione uma borda para visualização */
-    background-color: #4d3785;
+    border: 0px solid #69ddff; /* Adicione uma borda para visualização */
+    background-color: #643a71;
     transition: width 0.3s, height 0,3s; /* Adicionar uma transição para suavizar a mudança de tamanho */
     border-radius: 1em;
     filter:blur(10px);
@@ -169,7 +169,7 @@ body{
     min-height: 33em;
 }
 #descricao p{
-    background-color: #500b7e7c;
+    background-color: #caa8f5;
     padding: 3px;
     padding-top: 5em;
     padding-bottom: 5em;
@@ -190,7 +190,7 @@ iframe{
     padding: 1em;
 }
 #div-video{
-    background-color: #390152;
+    background-color: #caa8f5;
 }
 .revelar-1, .revelar-2, .revelar-3{
     visibility: hidden;
