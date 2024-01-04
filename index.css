@@ -196,16 +196,16 @@ iframe{
     visibility: hidden;
 }
 .trabalhos.destacada{
-    border: 1.9px solid rgb(110, 25, 221);
+    border: 1.9px solid #69ddff;
     min-width: 40%;
     min-height: 30em;
     background-color: aliceblue;
     filter: none;
-    color: #8f8f8f;
+    color: #09120b;
 }
 
 .trabalhos.destacada a{
-    color: #ff0000;
+    color: #69ddff;
 }
 
 .trabalhos.destacada a:hover{
@@ -239,7 +239,7 @@ iframe{
     margin-right: 5%;
 }
 .quadra{
-    background-color: rgba(0, 0, 0, 0.467);
+    background-color: #09120b;
     width: 20%;
     height: 20%;
     margin: 3%;
