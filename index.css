@@ -364,7 +364,7 @@ iframe{
     .trabalhos{
       min-width: 30%; /* Ajuste conforme necessário */
       min-height: 30em; /* Ajuste a altura conforme necessário */
-      border: 0px solid #cccccc; /* Adicione uma borda para visualização */
+      border: 0px solid #69ddff; /* Adicione uma borda para visualização */
       background-color: #752691;
       transition: width 0.3s, height 0,3s; /* Adicionar uma transição para suavizar a mudança de tamanho */
       border-radius: 1em;
@@ -390,7 +390,7 @@ iframe{
       width: 80%;
       height: 80%;
       animation: pulsar 4s infinite;
-      filter: drop-shadow(-8px 2px 7px #942dbd);
+      filter: drop-shadow(-8px 2px 7px #caa8f5);
   }
 }
 #menu-toggle {
@@ -411,10 +411,10 @@ iframe{
     top: 0;
     width: 250px;
     height: 100%;
-    background-color: #580f6c;
+    background-color: #643a71;
     padding-top: 60px;
-    color: #fff;
-    border: 0.5px solid #c88cffc9;
+    color: #09120b;
+    border: 0.5px solid #69ddff;
 }
 
 #fechar-menu {
@@ -429,9 +429,9 @@ iframe{
 #menu a {
     padding: 15px;
     text-decoration: none;
-    color: #fff;
+    color: #09120b;
     display: block;
 }
 #menu a:hover {
-    background-color: carnaval;
+    background-color: #39144275;
 }
