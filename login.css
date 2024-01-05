@@ -1,0 +1,36 @@
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2em;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .field {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 1.2em;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
